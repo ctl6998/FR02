@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="fullname">Fullname *</label><br>
+        <input type="text" name="fullname" placeholder="Input your fullname" required="required">
+        <br><br>
+        <label for="username">Username *</label><br>
+        <input type="text" name="username" placeholder="Input your username" required>
+        <br><br>
+        <label for="password">Password *</label><br>
+        <input type="password" name="password" placeholder="Input your password" required minlength="5" maxlength="10">
+        <br><br>    
+        <label for="email">Email *</label><br>
+        <input type="email" name="email" placeholder="Input your email" required>
+        <br><br>
+        <label for="phone">Telephone number *</label><br>
+        <input type="number" name="phone" placeholder="Input your phone number" required>
+        <br><br>
+        <label for="object">Input Object:</label><br>
+        <input type="radio" name="object">Student
+        <input type="radio" name="object">Teacher
+        <br><br>
+        <label for="hobby">Favorite:</label><br>
+        <input type="checkbox" name="hobby">Badminton
+        <input type="checkbox" name="hobby">Volleyball
+        <input type="checkbox" name="hobby">Football
+        <br><br>
+        <label for="address">Address *</label><br>
+        <select name="address" id="adr" required>
+            <option value="1">Hà Nội</option>
+            <option value="2">TP HCM</option>
+            <option value="3">Bắc Giang</option>
+        </select>
+        <br><br>
+        <label for="birth">Birthday *</label><br>
+        <input type="date" name="birth" required>
+        <br><br>
+        <label for="picture">Your picture *</label><br>
+        <input type="file" required>
+        <br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.parent {
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    position: relatives;
+    /* display: inline-block; */
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;;
+}
+
+/***REM và EM***/
+
+.child-em, .child-rem {
+    color: #fff;
+}
+
+.child-em {
+    font-size: 3em;
+}
+
+.child-rem {
+    font-size: 3rem;
+}
+
+.child-1 {
+    height: 200px;
+    width: 200px;
+}

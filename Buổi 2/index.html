@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+            color: blue;
+        }
+        .color-red {
+            color: red;
+        }
+        .block h1, .block-2 h1 {
+            color: red;
+            font-size: 16px;
+        }
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS Selector by ID and by Class -->
+    <p id="test" class="color-red">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias commodi sint. Neque corporis, reprehenderit vitae minus maiores, iusto inventore nobis itaque ipsam eius culpa ullam explicabo modi non! Optio.
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias commodi sint. Neque corporis, reprehenderit vitae minus maiores, iusto inventore nobis itaque ipsam eius culpa ullam explicabo modi non! Optio.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt alias commodi sint. Neque corporis, reprehenderit vitae minus maiores, iusto inventore nobis itaque ipsam eius culpa ullam explicabo modi non! Optio.</p>
+
+    <!-- Nested CSS Selector -->
+    <div class="block">
+        <h1>Inside</h1>
+    </div>
+    <div class="block-2">
+        <h1>Outside</h1>
+    </div>
+
+    <!-- Box Model (Padding, Border, Margin)/Positions -->
+    <div class="parent">
+        <div class="child bg-blue">   
+        </div>
+        <div class="child bg-red">
+        </div>
+    </div>
+
+    <!-- Position: Relatives, Absolute, Fixed -->
+    <!-- Remind: Relatives sẽ tính từ vị trí của chính nó, Absolute thì tính tự vị trí so với Parent -->
+
+
+    <!-- Display: inline, inline-block -->
+    <!-- Remind: inline không set được width (ăn theo content) -->
+    <div class="child bg-blue"></div>
+    <div class="child bg-red"></div>
+
+
+    <!-- Đơn vị tuyệt đối: px
+    Đơn vị tương đối: %, em, rem, vh, vw -->
+    <div class="parent">
+        <div class="child child-1 bg-blue child-em">EM</div>
+        <div class="child child-2 bg-red child-rem">REM</div>
+    </div>
+
+    
+</body>
+</html>

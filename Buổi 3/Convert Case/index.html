@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <h1 style="margin-bottom:10px">Convert Case Generator</h1>
+    <p>Simply enter your text and choose the case you want to convert it to.</p>
+    <div class="container">
+        <div class="col-6">
+            <textarea name="inputText" id="input-data" rows="10" placeholder="Input your text here"></textarea>
+        </div>
+        <div class="col-6">
+            <textarea name="outputText" id="output-data" rows="10" placeholder="Get the result"></textarea>
+        </div>
+    </div>
+    <div class="btn-container">
+    <button onclick="lowerCase()">lower case</button>
+    <button onclick="upperCase()">UPPER CASE</button>
+    <button onclick="capitalizeCase()">Capitalize Case</button>
+    <button onclick="alternatingCase()">aLtErNaTiNg cAsE</button>
+    <button onclick="inverseCase()">InVeRsE CaSe</button>
+    <button onclick="copyClipboard()">Copy text</button>
+    <button onclick="clearText()">Clear</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

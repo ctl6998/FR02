@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+}
+
+button {
+    padding: 4px 8px 4px 8px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: blanchedalmond;
+}
+
+.container {
+    margin: 50px 0px 15px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+textarea[name="inputText"], textarea[name="outputText"] {
+    width: 100%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 25px;
+    }
+
+    .container {
+        margin: 15px 0px 15px 0px;
+        flex-wrap: wrap;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+}
+
