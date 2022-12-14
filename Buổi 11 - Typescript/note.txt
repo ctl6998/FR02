@@ -1,0 +1,12 @@
+- npm install -g typescript cài global`
+- tsc file.ts -> file js
+- tsc main.ts -w
+
+Typescript:
+- Khai báo kiểu dữ liệu :
+- Interface, tương tự Class
+- OOP 4 đặc trưng
+
+- class: constructor, setter,getter
+- class extends/implements: super
+- object = new [class constructor]
